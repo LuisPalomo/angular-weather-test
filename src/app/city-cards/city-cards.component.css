@@ -1,0 +1,35 @@
+.temp-card {
+  margin: 16px;
+  width: 350px;
+}
+
+img {
+    max-height: 300px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mexico-header-image {
+  background-image: url('../../assets/img/Flag_of_Chile.svg');
+  background-size: cover;
+}
+
+.argentina-header-image {
+  background-image: url('../../assets/img/Flag_of_Argentina.svg');
+  background-size: cover;
+}
+
+.peru-header-image {
+  background-image: url('../../assets/img/Flag_of_Peru.svg');
+  background-size: cover;
+  background-position: -10px;
+}
+
+.brazil-header-image {
+  background-image: url('../../assets/img/Flag_of_Brazil.svg');
+  background-size: cover;
+  background-position: -8px;
+}

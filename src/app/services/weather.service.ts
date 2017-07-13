@@ -28,7 +28,7 @@ export class WeatherService {
    * @param interval time in ms between calls
    */
   getWeathers(idList = IDS, interval = THREE_MINS): Observable<CityWeather[]> {
-    let params = new URLSearchParams();
+    const params = new URLSearchParams();
     // Set the api key
     params.set('APPID', API_KEY);
     // Set the city id list to search for
@@ -38,7 +38,7 @@ export class WeatherService {
     return new Observable(observer => {
       // Function that retrieves the data from the api 
       // and triggers the next of the observable
-      let func = () => {
+      const func = () => {
         this.http.get(URL + GET_TEMPERATURES_EP, { search: params })
           .map(response => response.json().list as CityWeather[])
           .subscribe(cityWeather => observer.next(cityWeather));

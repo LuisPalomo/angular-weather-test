@@ -13,23 +13,23 @@ img {
 }
 
 .chile-header-image {
-  background-image: url('../../assets/img/Flag_of_Chile.svg');
+  background-image: url('../../../assets/img/Flag_of_Chile.svg');
   background-size: cover;
 }
 
 .argentina-header-image {
-  background-image: url('../../assets/img/Flag_of_Argentina.svg');
+  background-image: url('../../../assets/img/Flag_of_Argentina.svg');
   background-size: cover;
 }
 
 .peru-header-image {
-  background-image: url('../../assets/img/Flag_of_Peru.svg');
+  background-image: url('../../../assets/img/Flag_of_Peru.svg');
   background-size: cover;
   background-position: -10px;
 }
 
 .brazil-header-image {
-  background-image: url('../../assets/img/Flag_of_Brazil.svg');
+  background-image: url('../../../assets/img/Flag_of_Brazil.svg');
   background-size: cover;
   background-position: -8px;
 }

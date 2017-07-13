@@ -18,6 +18,7 @@ export class CityCardsComponent implements OnInit {
   ngOnInit() {
     this.weatherService.getWeathers().subscribe(
       (response) => {
+        console.log('Data updated at: ' + new Date());
         this.cityWeathers = response;
       }
     );

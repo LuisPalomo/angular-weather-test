@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MdCardModule, MdToolbarModule, MdIconModule, } from '@angular/material';
 import { CityCardsComponent } from './city-cards/city-cards.component';
+import { HttpModule } from '@angular/http';
+import { WeatherService } from 'app/weather.service';
 
 @NgModule({
   declarations: [
@@ -17,8 +19,9 @@ import { CityCardsComponent } from './city-cards/city-cards.component';
     MdCardModule,
     MdToolbarModule,
     MdIconModule,
+    HttpModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [ WeatherService],
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }

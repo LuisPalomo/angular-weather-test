@@ -1,14 +1,14 @@
 <div class="flex-container">
   <md-card class="temp-card">
     <md-card-header>
-      <div md-card-avatar class="mexico-header-image"></div>
+      <div md-card-avatar class="chile-header-image"></div>
       <md-card-title>Santiago</md-card-title>
-      <md-card-subtitle>Mexico</md-card-subtitle>
+      <md-card-subtitle>Chile</md-card-subtitle>
     </md-card-header>
     <img md-card-image src="assets/img/Santiago_Chile.jpg">
     <md-card-content>
       <p>
-      Temperature: 
+      Temperature: {{cityWeathers[0]?.main?.temp}} ºC
       </p>
     </md-card-content>
   </md-card>
@@ -22,7 +22,7 @@
     <img md-card-image src="assets/img/Buenos_Aires.jpg">
     <md-card-content>
       <p>
-      Temperature: 
+      Temperature: {{cityWeathers[1]?.main?.temp}} ºC
       </p>
     </md-card-content>
   </md-card>
@@ -36,7 +36,7 @@
     <img md-card-image src="assets/img/Lima.jpg">
     <md-card-content>
       <p>
-      Temperature: 
+      Temperature: {{cityWeathers[2]?.main?.temp}} ºC
       </p>
     </md-card-content>
   </md-card>
@@ -50,7 +50,7 @@
     <img md-card-image src="assets/img/Sao_Paulo.jpg">
     <md-card-content>
       <p>
-      Temperature: 
+      Temperature: {{cityWeathers[3]?.main?.temp}} ºC
       </p>
     </md-card-content>
   </md-card>
